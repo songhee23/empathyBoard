@@ -1,6 +1,8 @@
-package com.song.board;
+package com.song.board.web;
 
 
+import com.song.board.web.HelloController;
+import com.song.board.web.dto.HelloResponseDto;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -20,6 +22,14 @@ public class HelloControllerTest {
 
     @Test
     public void hello가_리턴된다() throws Exception {
+        // given
+        String name = "test";
+        int amount = 1000;
+
+        // when
+        // HelloResponseDto dto = new HelloResponseDto(name, amount);
+
+        //
         String hello = "hello";
 
         mvc.perform(get("/hello"))

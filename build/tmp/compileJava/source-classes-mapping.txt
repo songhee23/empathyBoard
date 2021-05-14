@@ -1,4 +1,6 @@
 com/song/board/Application.java
  com.song.board.Application
-com/song/board/HelloController.java
- com.song.board.HelloController
+com/song/board/web/HelloController.java
+ com.song.board.web.HelloController
+com/song/board/web/dto/HelloResponseDto.java
+ com.song.board.web.dto.HelloResponseDto
